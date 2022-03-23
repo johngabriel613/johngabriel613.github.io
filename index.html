@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my personal website johnagabriel.pages.dev. My name is john gabriel paderog">
+    <title>John Gabriel Paderog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        
+        <h1 class="logo"><span>.</span>johndev</h1>
+
+        
+
+        <ul class="navlist">
+            <li class="navitems"><a href="#">Home</a></li>
+            <li class="navitems"><a href="#">About</a></li>
+            <li class="navitems"><a href="#">Education</a></li>
+            <li class="navitems"><a href="#">Projects</a></li>
+        </ul>
+
+        <div class="mobile">
+        <div class="open-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="dark-btn">
+            <ion-icon class="dark on" name="moon"></ion-icon>
+            <ion-icon class="light" name="sunny"></ion-icon>
+        </div>
+    </div>
+
+        
+    </nav>
+
+    <section class="home" id="home">
+        <div class="layout">
+        <div class="home-content">
+            <div class="home-image">
+                <img src="images/webpic.png" alt="John Gabriel Paderog" width='1080px' height="auto" >
+            </div>
+
+            <div class="home-text">
+                <h1>Hello, I am <span id="typed"></span></h1>
+                <script src="typed.js"></script>
+                <script>
+                    var typed = new Typed('#typed', {
+                      strings: ['John Gabriel',
+                               'a Programmer',
+                               'a Developer'],
+
+                               loop: true,
+                               typeSpeed:30,
+                               backSpeed:30
+                    });
+                  </script>
+                  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ullam porro voluptates, facilis aperiam numquam, mollitia sequi minus non impedit aut ratione incidunt.</p>
+                <div class="social-icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+
+                <div class="contact-btn">
+                    <a href="#">Contact Me <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    
+    
+</body>
+</html>
