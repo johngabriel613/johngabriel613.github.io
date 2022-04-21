@@ -10,7 +10,8 @@
     <style>
 
     body{
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', 'Arial', sans-serif;
+        font-display: swap ;
     }
     
             /* poppins-300 - latin */
@@ -25,6 +26,7 @@
         url('../fonts/poppins-v19-latin-300.woff') format('woff'), /* Modern Browsers */
         url('../fonts/poppins-v19-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/poppins-v19-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+    font-display: swap;
     }
 
     /* poppins-regular - latin */
@@ -39,6 +41,7 @@
         url('../fonts/poppins-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
         url('../fonts/poppins-v19-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/poppins-v19-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+    font-display: swap;
     }
 
     /* poppins-500 - latin */
@@ -53,6 +56,7 @@
         url('../fonts/poppins-v19-latin-500.woff') format('woff'), /* Modern Browsers */
         url('../fonts/poppins-v19-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/poppins-v19-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+    font-display: swap;
     }
 
     /* poppins-600 - latin */
@@ -67,24 +71,25 @@
         url('../fonts/poppins-v19-latin-600.woff') format('woff'), /* Modern Browsers */
         url('../fonts/poppins-v19-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
         url('../fonts/poppins-v19-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+    font-display: swap;
     }
 
     </style>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
     <script src="main.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
         
-        <h1 class="logo"><span>.</span>johndev</h1>
+        <h1 class="logo">JG<span>P</span></h1>
 
         
-
+        
         <ul class="navlist">
-            <li class="navitems"><a href="#">Home</a></li>
-            <li class="navitems"><a href="#">About</a></li>
-            <li class="navitems"><a href="#">Education</a></li>
-            <li class="navitems"><a href="#">Projects</a></li>
+            <li class="navitems"><a href="#home">Home</a></li>
+            <li class="navitems"><a href="#about">About</a></li>
+            <li class="navitems"><a href="#education">Education</a></li>
+            <li class="navitems"><a href="#services">Services</a></li>
+            <li class="navitems"><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="mobile">
@@ -94,19 +99,17 @@
             <span></span>
         </div>
         <div class="dark-btn">
-            <ion-icon class="dark on" name="moon"></ion-icon>
-            <ion-icon class="light" name="sunny"></ion-icon>
-        </div>
+            <svg class="dark on" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M20.958 15.325c.204-.486-.379-.9-.868-.684a7.684 7.684 0 0 1-3.101.648c-4.185 0-7.577-3.324-7.577-7.425a7.28 7.28 0 0 1 1.134-3.91c.284-.448-.057-1.068-.577-.936C5.96 4.041 3 7.613 3 11.862C3 16.909 7.175 21 12.326 21c3.9 0 7.24-2.345 8.632-5.675Z"/><path fill="currentColor" d="M15.611 3.103c-.53-.354-1.162.278-.809.808l.63.945a2.332 2.332 0 0 1 0 2.588l-.63.945c-.353.53.28 1.162.81.808l.944-.63a2.332 2.332 0 0 1 2.588 0l.945.63c.53.354 1.162-.278.808-.808l-.63-.945a2.332 2.332 0 0 1 0-2.588l.63-.945c.354-.53-.278-1.162-.809-.808l-.944.63a2.332 2.332 0 0 1-2.588 0l-.945-.63Z"/></svg>
+            <svg class="light" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><path fill="currentColor" d="M10 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1Zm4 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0Zm-.464 4.95l.707.707a1 1 0 0 0 1.414-1.414l-.707-.707a1 1 0 0 0-1.414 1.414Zm2.12-10.607a1 1 0 0 1 0 1.414l-.706.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0ZM17 11a1 1 0 1 0 0-2h-1a1 1 0 1 0 0 2h1Zm-7 4a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1ZM5.05 6.464A1 1 0 1 0 6.465 5.05l-.708-.707a1 1 0 0 0-1.414 1.414l.707.707Zm1.414 8.486l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 1.414ZM4 11a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2h1Z" clip-rule="evenodd"/></svg>
+        </div>   
     </div>
-
-        
     </nav>
 
     <section class="home" id="home">
         <div class="layout">
         <div class="home-content">
             <div class="home-image">
-                <img src="images/webpic-1.webp" alt="John Gabriel Paderog" width='1080px' height="auto" >
+                <img src="images/webpic-1.webp"alt="John Gabriel Paderog" width='480px' height="480px" >
             </div>
 
             <div class="home-text">
@@ -124,23 +127,195 @@
                     });
                   </script>
                   
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorem ullam porro voluptates, facilis aperiam numquam, mollitia sequi minus non impedit aut ratione incidunt.</p>
+                <p>an 18-year-old student who enjoys building and designing responsive websites and aspires to be a full-stack developer.</p>
                 <div class="social-icons">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.facebook.com/peizen.sheidan.5" alt="facebook-link" aria-label="Facebook" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1536 1536"><path fill="currentColor" d="M1248 0q119 0 203.5 84.5T1536 288v960q0 119-84.5 203.5T1248 1536h-188V941h199l30-232h-229V561q0-56 23.5-84t91.5-28l122-1V241q-63-9-178-9q-136 0-217.5 80T820 538v171H620v232h200v595H288q-119 0-203.5-84.5T0 1248V288Q0 169 84.5 84.5T288 0h960z"/></svg></a>
+                    <a href="https://twitter.com/jan_gabriyel" alt="twitter-link" aria-label="Twitter" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645c0 138.72-105.583 298.558-298.558 298.558c-59.452 0-114.68-17.219-161.137-47.106c8.447.974 16.568 1.299 25.34 1.299c49.055 0 94.213-16.568 130.274-44.832c-46.132-.975-84.792-31.188-98.112-72.772c6.498.974 12.995 1.624 19.818 1.624c9.421 0 18.843-1.3 27.614-3.573c-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319c-28.264-18.843-46.781-51.005-46.781-87.391c0-19.492 5.197-37.36 14.294-52.954c51.655 63.675 129.3 105.258 216.365 109.807c-1.624-7.797-2.599-15.918-2.599-24.04c0-57.828 46.782-104.934 104.934-104.934c30.213 0 57.502 12.67 76.67 33.137c23.715-4.548 46.456-13.32 66.599-25.34c-7.798 24.366-24.366 44.833-46.132 57.827c21.117-2.273 41.584-8.122 60.426-16.243c-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                    <a href="https://www.instagram.com/jngbryl/" alt="instagram-link" aria-label="Instagram" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9S287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7s74.7 33.5 74.7 74.7s-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8c-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8s26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9c-26.2-26.2-58-34.4-93.9-36.2c-37-2.1-147.9-2.1-184.9 0c-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9c1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0c35.9-1.7 67.7-9.9 93.9-36.2c26.2-26.2 34.4-58 36.2-93.9c2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                    <a href="https://github.com/johngabriel613" alt="github-link" aria-label="Github" target="_blank"9><svg xmlns="http://www.w3.org/2000/svg" width="0.97em" height="1em" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6c-3.3.3-5.6-1.3-5.6-3.6c0-2 2.3-3.6 5.2-3.6c3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9c2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9c.3 2 2.9 3.3 5.9 2.6c2.9-.7 4.9-2.6 4.6-4.6c-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2c12.8 2.3 17.3-5.6 17.3-12.1c0-6.2-.3-40.4-.3-61.4c0 0-70 15-84.7-29.8c0 0-11.4-29.1-27.8-36.6c0 0-22.9-15.7 1.6-15.4c0 0 24.9 2 38.6 25.8c21.9 38.6 58.6 27.5 72.9 20.9c2.3-16 8.8-27.1 16-33.7c-55.9-6.2-112.3-14.3-112.3-110.5c0-27.5 7.6-41.3 23.6-58.9c-2.6-6.5-11.1-33.3 2.6-67.9c20.9-6.5 69 27 69 27c20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27c13.7 34.7 5.2 61.4 2.6 67.9c16 17.7 25.8 31.5 25.8 58.9c0 96.5-58.9 104.2-114.8 110.5c9.2 7.9 17 22.9 17 46.4c0 33.7-.3 75.4-.3 83.6c0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2c1.6 1.6 3.9 2.3 5.2 1c1.3-1 1-3.3-.7-5.2c-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9c1.6 1 3.6.7 4.3-.7c.7-1.3-.3-2.9-2.3-3.9c-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2c2.3 2.3 5.2 2.6 6.5 1c1.3-1.3.7-4.3-1.3-6.2c-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9c1.6 2.3 4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2c-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
                 </div>
 
                 <div class="contact-btn">
-                    <a href="#">Contact Me <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon></a>
+                    <a href="#contact">Contact Me <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7"/></svg></a>
                 </div>
             </div>
         </div>
      </div>
     </section>
 
+    <section id="about" class="about">
+        <div class="layout">
+            <div class="title-section">
+                <h1>ABOUT</h1>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-profile">
+                    <img src="images/about-pic-1.webp" alt="profile-pic"  width="100px" height="100px">
+
+                    <div class="profile-name">
+                        <h1>John Gabriel Paderog</h1>
+                        <span>Developer/Programmer</span>
+                    </div>
+
+                    <svg class="qoute" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"/></svg>
+                </div>
+                
+            
+                <p>I am a first-year college student pursuing a Bachelor of Science in Computer Science at Eulogio "Amang" Rodriguez Institute of Science and Technology.  I want to be a full-stack developer someday, so I'm enhancing my abilities by putting what I've learned into practice. I'm passionate about what I do and eager to learn more about the technology stack, including frameworks and databases. I'm also familiar with photo and video editing.</p>
+
+
+                <div class="cv">
+                    <svg class="qoute" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"/></svg>
+
+                    <div class="download">
+                        
+                        <a href="#"><svg class="dl-cv" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1.37em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1920 1408"><path fill="currentColor" d="M1280 800q0-14-9-23t-23-9h-224V416q0-13-9.5-22.5T992 384H800q-13 0-22.5 9.5T768 416v352H544q-13 0-22.5 9.5T512 800q0 14 9 23l352 352q9 9 23 9t23-9l351-351q10-12 10-24zm640 224q0 159-112.5 271.5T1536 1408H448q-185 0-316.5-131.5T0 960q0-130 70-240t188-165q-2-30-2-43q0-212 150-362T768 0q156 0 285.5 87T1242 318q71-62 166-62q106 0 181 75t75 181q0 76-41 138q130 31 213.5 135.5T1920 1024z"/></svg> Download CV</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="layout">
+            <div class="title-section">
+                <h1>EDUCATION</h1>
+            </div>
+
+            <div class="educ-item">
+                <span class="line"></span>
+                <div class="educ-card">
+                    <h3>2021- present</h3>
+                    <h4>College</h4>
+                    <p>Eulogio "Amang" Rodriguez Institute of Science and Technology</p>
+                    <span>Bachelor of Science in Computer Science</span>
+                    <div class="dot">
+                        <span class="circle"></span>
+                    </div>
+                    <div class="school-logo">
+                        <img src="images/earist-logo.webp" alt="" width="200px" height="200px">
+                    </div>
+                    
+                </div>
+
+                <div class="educ-card">
+                    <h3>2019- 2021</h3>
+                    <h4>Senior Highschool</h4>
+                    <p>AMA University</p>
+                    <span>Science, Technology, Engineering, and Mathematics</span>
+                    <div class="dot">
+                        <span class="circle"></span>
+                    </div>
+                    <div class="school-logo">
+                        <img src="images/ama-logo.webp" alt="" width="200px" height="200px">
+                    </div>
+                    
+                </div>
+
+                <div class="educ-card">
+                    <h3>2015 - 2019</h3>
+                    <h4>Junior Highschool</h4>
+                    <p>Sergio Osmena Sr. Highschool</p>
+                    <span>Graduated</span>
+                    <div class="dot">
+                        <span class="circle"></span>
+                    </div>
+                    <div class="school-logo">
+                        <img src="images/soshs-logo.webp" alt="" width="200px" height="200px">
+                    </div>
+                    
+                </div>
+
+                <div class="educ-card">
+                    <h3>2009-2015</h3>
+                    <h4>Elementary</h4>
+                    <p>Masambong Elementary School</p>
+                    <span>Graduated</span>
+                    <div class="school-logo">
+                        <img src="images/mes-logo.webp" alt="" width="200px" height="200px">
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="title-section"><h1>Services</h1></div>
+
+        <div class="services-content">
+        <div class="services-card">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 9h10.5v3.5H4V9zm0 5.5h10.5V18H4v-3.5zM20 18h-3.5V9H20v9z"/></svg>
+            <h2>Web Development</h2>
+            <p>Create a website that work fast and perform well with a seamless user experience.</p>
+        </div>
+        <div class="services-card">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 2h-5v20h5c.6 0 1-.4 1-1V3c0-.6-.4-1-1-1zM2 21c0 .6.4 1 1 1h11v-9H2v8zM2 3v8h12V2H3c-.6 0-1 .4-1 1z"/></svg>
+            <h2>Web Design</h2>
+            <p>Create a visually appealing or minimalist layout that will elevate the user experience. </p>
+        </div>
+        <div class="services-card">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="currentColor"><path d="M6.002 5.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0z"/><path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71l-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/></g></svg>
+            <h2>Photo Editing</h2>
+            <p>Enhance or modify your image to achieve the desired result. </p>
+        </div>
+
+        <div class="services-card">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.25em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 640 512"><path fill="currentColor" d="M208 352c-2.39 0-4.78.35-7.06 1.09C187.98 357.3 174.35 360 160 360c-14.35 0-27.98-2.7-40.95-6.91c-2.28-.74-4.66-1.09-7.05-1.09C49.94 352-.33 402.48 0 464.62C.14 490.88 21.73 512 48 512h224c26.27 0 47.86-21.12 48-47.38c.33-62.14-49.94-112.62-112-112.62zm-48-32c53.02 0 96-42.98 96-96s-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96zM592 0H208c-26.47 0-48 22.25-48 49.59V96c23.42 0 45.1 6.78 64 17.8V64h352v288h-64v-64H384v64h-76.24c19.1 16.69 33.12 38.73 39.69 64H592c26.47 0 48-22.25 48-49.59V49.59C640 22.25 618.47 0 592 0z"/></svg>
+            <h2>Mentoring</h2>
+            <p>Learn the basics of web development using html, CSS, and JavaScript.</p>
+        </div>
+
+    </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="title-section">
+            <h1>Get in touch</h1>
+        </div>
+        <div class="contact-content">
+        <div class="contact-info">
+            <div class="contact-info-card">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="currentColor" d="M25 4H11a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm-6 26h-2v-2h2Zm-8-4V6h14v20Z" class="clr-i-solid clr-i-solid-path-1"/><path fill="none" d="M0 0h36v36H0z"/></svg>
+                <p>+639204653081</p>
+            </div>
+            <div class="contact-info-card">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M20 20H4a2 2 0 0 1-2-2V5.913A2 2 0 0 1 4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2ZM4 7.868V18h16V7.868L12 13.2L4 7.868ZM4.8 6l7.2 4.8L19.2 6H4.8Z"/></svg>
+                <p>admin@johngabrielpaderog.me</p>
+            </div>
+            <div class="contact-info-card">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path fill="currentColor" d="m13 13.14l1.17-5.94c.79-.43 1.33-1.25 1.33-2.2a2.5 2.5 0 0 0-5 0c0 .95.54 1.77 1.33 2.2zm0-9.64c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5zm1.72 4.8L18 6.97v9L13.12 18L7 15.97l-5 2v-9l5-2l4.27 1.41l1.73 7.3z"/></svg>
+                <p>Quezon City, Philippines</p>
+            </div>
+        </div>
+
+        <form action="https://formsubmit.co/admin@johngabrielpaderog.me" method="POST">
+
+            <h2>I'd like to hear anything from you.</h2>
+            <div class="name">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Surname" placeholder="Surname" required>
+            </div>
+            <input type="email" name="Email" placeholder="Please type your email" required>
+            <textarea name="message" name="Message" id="messagebox" cols="30" rows="10" placeholder="Type your message here..." required></textarea>
+            <input type="hidden" name="_cc" value="paderogjohn28@gmail.com">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" placeholder>Submit <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="currentColor" d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26l.001.002l4.995 3.178l3.178 4.995l.002.002l.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215l7.494-7.494l1.178-.471l-.47 1.178Z"/></svg></button>
+        </form>
+    </div>
+    </section>
     
+    <div class="scroll-up">
+        <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 15l8-8l8 8"/></svg></a>
+    </div>
     
+    <footer>
+        <p>&copy <a href="#">John Gabriel T. Paderog</a>(2022)</p>
+            <a href="https://www.facebook.com/peizen.sheidan.5" alt="facebook-link" aria-label="Facebook" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1536 1536"><path fill="currentColor" d="M1248 0q119 0 203.5 84.5T1536 288v960q0 119-84.5 203.5T1248 1536h-188V941h199l30-232h-229V561q0-56 23.5-84t91.5-28l122-1V241q-63-9-178-9q-136 0-217.5 80T820 538v171H620v232h200v595H288q-119 0-203.5-84.5T0 1248V288Q0 169 84.5 84.5T288 0h960z"/></svg></a>
+            <a href="https://twitter.com/jan_gabriyel" alt="twitter-link" aria-label="Twitter" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645c0 138.72-105.583 298.558-298.558 298.558c-59.452 0-114.68-17.219-161.137-47.106c8.447.974 16.568 1.299 25.34 1.299c49.055 0 94.213-16.568 130.274-44.832c-46.132-.975-84.792-31.188-98.112-72.772c6.498.974 12.995 1.624 19.818 1.624c9.421 0 18.843-1.3 27.614-3.573c-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319c-28.264-18.843-46.781-51.005-46.781-87.391c0-19.492 5.197-37.36 14.294-52.954c51.655 63.675 129.3 105.258 216.365 109.807c-1.624-7.797-2.599-15.918-2.599-24.04c0-57.828 46.782-104.934 104.934-104.934c30.213 0 57.502 12.67 76.67 33.137c23.715-4.548 46.456-13.32 66.599-25.34c-7.798 24.366-24.366 44.833-46.132 57.827c21.117-2.273 41.584-8.122 60.426-16.243c-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+            <a href="https://www.instagram.com/jngbryl/" alt="instagram-link" aria-label="Instagram" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9S287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7s74.7 33.5 74.7 74.7s-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8c-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8s26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9c-26.2-26.2-58-34.4-93.9-36.2c-37-2.1-147.9-2.1-184.9 0c-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9c1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0c35.9-1.7 67.7-9.9 93.9-36.2c26.2-26.2 34.4-58 36.2-93.9c2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+            <a href="https://github.com/johngabriel613" alt="github-link" aria-label="Github" target="_blank"9><svg xmlns="http://www.w3.org/2000/svg" width="0.97em" height="1em" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6c-3.3.3-5.6-1.3-5.6-3.6c0-2 2.3-3.6 5.2-3.6c3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9c2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9c.3 2 2.9 3.3 5.9 2.6c2.9-.7 4.9-2.6 4.6-4.6c-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2c12.8 2.3 17.3-5.6 17.3-12.1c0-6.2-.3-40.4-.3-61.4c0 0-70 15-84.7-29.8c0 0-11.4-29.1-27.8-36.6c0 0-22.9-15.7 1.6-15.4c0 0 24.9 2 38.6 25.8c21.9 38.6 58.6 27.5 72.9 20.9c2.3-16 8.8-27.1 16-33.7c-55.9-6.2-112.3-14.3-112.3-110.5c0-27.5 7.6-41.3 23.6-58.9c-2.6-6.5-11.1-33.3 2.6-67.9c20.9-6.5 69 27 69 27c20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27c13.7 34.7 5.2 61.4 2.6 67.9c16 17.7 25.8 31.5 25.8 58.9c0 96.5-58.9 104.2-114.8 110.5c9.2 7.9 17 22.9 17 46.4c0 33.7-.3 75.4-.3 83.6c0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2c1.6 1.6 3.9 2.3 5.2 1c1.3-1 1-3.3-.7-5.2c-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9c1.6 1 3.6.7 4.3-.7c.7-1.3-.3-2.9-2.3-3.9c-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2c2.3 2.3 5.2 2.6 6.5 1c1.3-1.3.7-4.3-1.3-6.2c-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9c1.6 2.3 4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2c-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+    </footer>
 </body>
 </html>
